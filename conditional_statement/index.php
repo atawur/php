@@ -1,27 +1,26 @@
-<?php
- $number = 10;
-if($number > 10){
-    echo "value is getter than 10";
+<?php 
+$number = 1000;
 
-} else if($number==10){
-    echo "value is equal to 10";
+if($number > 100){
+ echo "value is getter than 100";
+} else if($number==100){
+    echo "value is equal to 100";
 }
- else{
-    echo "value is less than 10";
+else{
+    echo "value is less than 100";
 }
- 
-$name ='mr nnn';
 
-if($name =='mr x'){
-    echo "Your are mr x";
+
+$name = 'mr nngn';
+
+if($name=='mr x'){
+    echo " you are mr x";
 } else if($name=='mr y'){
-    echo "Your are mr y";
+    echo " you are mr y";
 }else if($name=='mr z'){
-   echo "Your are mr z";
-} else if($name=='mr n'){
-    echo "You are mr n";
-} else{
-    echo "You are none of them";
+    echo  " you are mr z";
+}else if($name=='mr n'){
+    echo  " you are mr n";
+} else {
+    echo "Your are none of them";
 }
-
-?>
